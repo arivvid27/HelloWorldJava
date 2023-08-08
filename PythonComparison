@@ -1,0 +1,31 @@
+from math import *
+
+print("[1] => Addition")
+print("[2] => Subtraction")
+print("[3] => Multiplication")
+print("[4] => Division")
+
+operation = int(input(">> "))
+
+if operation == 1:
+    val1=int(input("Value 1 => "))
+    val2=int(input("Value 2 => "))
+    sum = val1+val2
+    print(sum)
+elif operation == 2:
+    val1=int(input("Value 1 => "))
+    val2=int(input("Value 2 => "))
+    rem = val1-val2
+    print(rem)
+elif operation == 3:
+    val1=int(input("Value 1 => "))
+    val2=int(input("Value 2 => "))
+    prd = val1*val2
+    print(prd)
+elif operation == 4:
+    val1=int(input("Value 1 => "))
+    val2=int(input("Value 2 => "))
+    quo = val1/val2
+    print(quo)
+else:
+    exit()
